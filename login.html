@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>LOgin</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="bootstrap.min.css">
+
+        <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col-md-6 my-5 w-75  Login  d-flex flex-column mx-auto ">
+                <h1 class="w-100 text-center my-4"> Login System
+                </h1>
+                <input type="text" id="email" placeholder="email">
+
+                <input type="text"  class="my-5" id="password" placeholder="password">
+                <button id="submit"  class="mb-5" onclick="saveData()">Login</button>
+
+
+
+            </div>
+
+        </div>
+     
+       </div> -->
+      <span class="d-none" id="username"></span>
+
+       <div class="container my-5 text-center">
+           <div class="group m-auto w-75 p-5">
+               <h1>Smart Login System</h1>
+   
+               <input id="email"   class="form-control my-3" placeholder="Enter your email" type="email">
+               <span id="validemail" class="validMessage mt-0"></span>
+
+               <input id="password" class="form-control my-3" placeholder="Enter  password" type="password">
+               <p id="exist"></p>
+   
+               <button onclick=" saveData()" class="btn btn-outline-info w-100 my-3">Sign In</button>
+               <p class="text-white">You dont have an account? <a class='text-white' href='registration.html'>signup</a></p>
+           </div>
+       </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

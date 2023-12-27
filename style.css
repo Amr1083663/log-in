@@ -1,0 +1,38 @@
+body{
+    background-color: #24353F;
+}
+
+h1,p,h3{
+    color: #17A2B8;
+}
+h4{
+    color: rgb(234, 248, 255);
+}
+input{
+    background-color: transparent !important;
+    color: rgb(210, 209, 209) !important;
+}
+
+input::placeholder{
+    color: rgb(177, 170, 170) !important;
+}
+
+.bigdiv{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+;
+}
+
+
+*{
+    box-sizing: content-box;
+}
+
+
+#suuccessdiv{
+    width: 60%;
+    height: 10vh;
+    text-align: center;
+    background-colo;
+    color: rgb(15, 184, 68) ;
+    z-index: 2;
+}
